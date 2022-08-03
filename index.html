@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="styils-cache"
+      mode="light"
+      content="css-2531034372|css-321038230|css-321038230.checked-false|css-321038230.checked-true|css-2313343298|css-1255783424|css-156896714|css-156896714.padding-false|css-940962240|css-44296100|css-832577268|css-354690205|css-2179833919|css-2887955138|css-153460069|css-2299665724|css-1473927961|css-1353168920|css-2154077700|css-74779285|css-2419906167|css-2273198966|css-1228906118|css-2236630148|css-3744945764|css-3848671495|css-2416211695|css-1801775202|css-3442742593|css-2273295395|css-1865122742|css-4169121954"
+    />
+    <style data-styils="css-ssr-global">
+      @keyframes css-354690205 {
+        0% {
+          transform: translateY(0px);
+        }
+        30% {
+          transform: translateY(-10px);
+        }
+        50% {
+          transform: translateY(4px);
+        }
+        70% {
+          transform: translateY(-15px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      a {
+        text-decoration: none;
+      }
+      body {
+        font-size: 16px;
+        background-color: #fff;
+        font-display: optional;
+        font-family: PingFang SC, Roboto, Ubuntu, Cantarell, Noto Sans,
+          sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      }
+      *:not(pre *) {
+        color: rgb(33, 53, 71);
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+    <style data-styils="css-ssr">
+      .css-2531034372 {
+        z-index: 2;
+        position: relative;
+        border-radius: 28px;
+        overflow: hidden;
+        backdrop-filter: saturate(180%) blur(14px);
+        box-shadow: 0 2px 8px 2px rgb(104 112 118 / 0.07),
+          0 2px 4px -1px rgb(104 112 118 / 0.04);
+      }
+      .css-2531034372 input {
+        cursor: pointer;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        border: none;
+        appearance: none;
+      }
+      .css-321038230 {
+        position: relative;
+        width: 68px;
+        height: 38px;
+        background: #e6e8eb8d;
+        z-index: 0;
+        margin: 0px;
+        padding: 0px;
+        appearance: none;
+        border: 0px;
+        transition: all 0.3s;
+      }
+      .css-321038230::after {
+        position: absolute;
+        left: 6px;
+        top: 6px;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        transition: all 0.3s;
+        line-height: 26px;
+        text-align: center;
+      }
+      .css-321038230.checked-false::after {
+        background-color: #fff;
+        content: "☀️";
+      }
+      .css-321038230.checked-true {
+        background-color: rgba(255, 255, 255, 0.05);
+      }
+      .css-321038230.checked-true::after {
+        transform: translateX(30px);
+        content: "🌛";
+        background-color: rgba(255, 255, 255, 0.05);
+      }
+      .css-2313343298 {
+        backdrop-filter: saturate(180%) blur(14px);
+        background: rgba(255, 255, 255, 0.05);
+        box-shadow: 0 2px 8px 2px rgb(104 112 118 / 0.07),
+          0 2px 4px -1px rgb(104 112 118 / 0.04);
+        border-radius: 14px;
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        color: #687076;
+      }
+      .css-1255783424 {
+        display: flex;
+        align-items: center;
+        padding-bottom: 16px;
+      }
+      .css-1255783424 div {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff0fb;
+      }
+      .css-1255783424 div img {
+        height: 60%;
+        width: 60%;
+      }
+      .css-1255783424 span {
+        margin-left: 16px;
+        font-weight: 500;
+        color: rgb(33, 53, 71);
+      }
+      .css-156896714 {
+        max-width: 1280px;
+        width: 55%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 64px;
+        transition: width 0.3s;
+      }
+      @media screen and (max-width: 1080px) {
+        .css-156896714 {
+          width: 100%;
+        }
+      }
+      .css-156896714.padding-false {
+        padding-bottom: 14px;
+      }
+      .css-940962240 {
+        display: inline-block;
+        border-radius: 14px;
+        font-size: 14px;
+        padding: 15px 20px 20px;
+        margin: 0px;
+        word-break: normal;
+        overflow-x: auto;
+        color: #fff;
+        background: #363449;
+      }
+      .css-44296100 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 16px;
+      }
+      .css-44296100 section:first-child {
+        display: flex;
+        align-items: center;
+      }
+      .css-44296100 section:first-child div {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+      .css-44296100 section:first-child div:nth-child(1) {
+        background-color: #f31260;
+      }
+      .css-44296100 section:first-child div:nth-child(2) {
+        background-color: #f5a524;
+      }
+      .css-44296100 section:first-child div:nth-child(3) {
+        background-color: #17c964;
+      }
+      .css-44296100 section:last-child > img {
+        float: left;
+        padding: 4px 8px;
+        border-radius: 6px;
+        margin: 0 10px;
+        width: 18px;
+        height: 18px;
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .css-832577268 {
+        padding-bottom: 14px;
+      }
+      .css-832577268 h2 {
+        margin-bottom: 6px;
+      }
+      .css-832577268 strong {
+        color: #fb304f;
+        padding: 4px;
+      }
+      .css-832577268 a {
+        padding: 2px 12px;
+        margin: 0 8px;
+        background-color: rgba(117, 63, 131, 0.07);
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .css-832577268 p {
+        line-height: 1.75;
+      }
+      .css-832577268 p::before {
+        content: "-";
+        padding: 0 8px;
+      }
+      .css-2179833919 {
+        z-index: 1;
+        width: 200px;
+        height: 240px;
+        transition: all 0.3s;
+        filter: drop-shadow(0px 8px 6px rgba(26, 58, 70, 0.8));
+      }
+      .css-2887955138 {
+        display: block;
+        height: 65px;
+        width: 295px;
+        margin-right: 8px;
+        margin-bottom: 12px;
+      }
+      @media screen and (max-width: 1000px) {
+        .css-2887955138 {
+          height: 50px;
+          width: 220px;
+        }
+      }
+      .css-153460069 {
+        z-index: 2;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        margin-right: 32px;
+        color: #687076;
+        border-radius: 12px;
+        padding: 10px 15px;
+        backdrop-filter: saturate(180%) blur(84px);
+        background-color: rgba(255, 255, 255, 0.05);
+      }
+      .css-153460069 img {
+        height: 30px;
+        width: 30px;
+      }
+      .css-153460069 span {
+        padding-left: 6px;
+      }
+      .css-2299665724 {
+        position: relative;
+        width: 46%;
+        height: 399px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .css-2299665724:after {
+        position: absolute;
+        border-radius: 51%;
+        height: 65%;
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        content: "";
+        background-image: linear-gradient(-45deg, #fb304f 50%, #00e155 50%);
+        filter: blur(62px);
+        opacity: 0.6;
+      }
+      .css-2299665724 > * {
+        user-select: none;
+      }
+      .css-2299665724 .css-2179833919 {
+        animation: 10s ease 0s infinite none running css-354690205;
+      }
+      .css-2299665724 .css-2531034372 {
+        animation: 13s ease 1s infinite reverse none running css-354690205;
+        position: absolute;
+        right: 20%;
+        box-shadow: 0 2px 8px 2px rgb(104 112 118 / 0.07),
+          0 2px 4px -1px rgb(104 112 118 / 0.04);
+        top: 0px;
+      }
+      .css-2299665724 .css-153460069[datatype="react"] {
+        animation: 13s ease 1.5s infinite none running css-354690205;
+        box-shadow: 0 2px 8px 2px rgb(104 112 118 / 0.07),
+          0 2px 4px -1px rgb(104 112 118 / 0.04);
+        top: 40px;
+        left: 40px;
+      }
+      .css-2299665724 .css-153460069[datatype="html"] {
+        animation: 13s ease 0.5s infinite none running css-354690205;
+        box-shadow: 0 2px 8px 2px rgb(104 112 118 / 0.07),
+          0 2px 4px -1px rgb(104 112 118 / 0.04);
+        left: 20px;
+        bottom: 70px;
+        font-size: 24px;
+      }
+      .css-2299665724 .css-153460069[datatype="html"] img {
+        width: 40px;
+        height: 40px;
+      }
+      .css-2299665724 .css-153460069[datatype="vue"] {
+        box-shadow: 0 2px 8px 2px rgb(104 112 118 / 0.07),
+          0 2px 4px -1px rgb(104 112 118 / 0.04);
+        bottom: 0px;
+        right: 20px;
+      }
+      @media screen and (max-width: 580px) {
+        .css-2299665724 .css-153460069[datatype="react"] {
+          left: 20px;
+        }
+      }
+      @media screen and (max-width: 580px) {
+        .css-2299665724 .css-153460069[datatype="html"] {
+          left: 0px;
+        }
+      }
+      @media screen and (max-width: 580px) {
+        .css-2299665724 .css-153460069[datatype="vue"] {
+          right: 0px;
+        }
+      }
+      .css-1473927961 {
+        width: 50%;
+      }
+      .css-1353168920 {
+        display: flex;
+        justify-content: space-between;
+        padding: 48px 0 96px 0;
+      }
+      @media screen and (max-width: 1000px) {
+        .css-1353168920 {
+          flex-wrap: wrap;
+          flex-direction: column-reverse;
+          align-items: center;
+          padding: 48px 0 48px 0;
+        }
+        .css-1353168920 .css-1473927961 {
+          width: 100%;
+        }
+        .css-1353168920 .css-2299665724 {
+          width: 100%;
+          margin-bottom: 36px;
+        }
+      }
+      .css-2154077700 {
+        position: relative;
+      }
+      .css-74779285 {
+        font-size: 36px;
+        font-weight: 600;
+      }
+      @media screen and (max-width: 1000px) {
+        .css-74779285 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-size: 28px;
+          max-width: 600px;
+          margin: 0 auto;
+        }
+      }
+      .css-2419906167 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -12px;
+      }
+      .css-2419906167 .css-2313343298 {
+        margin: 12px;
+        width: calc(100% / 4 - 72px);
+      }
+      @media screen and (max-width: 1000px) {
+        .css-2419906167 .css-2313343298 {
+          width: calc(100% / 2 - 72px);
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .css-2419906167 .css-2313343298 {
+          width: calc(100% - 72px);
+        }
+      }
+      .css-2273198966 {
+        text-decoration: none;
+        display: inline-block;
+        border: none;
+        text-align: center;
+        font-weight: 500;
+        white-space: nowrap;
+        transition: color 0.25s, border-color 0.25s, background-color 0.25s;
+        border-radius: 12px;
+        padding: 0 20px;
+        line-height: 40px;
+        font-size: 14px;
+        cursor: pointer;
+        color: #687076;
+        box-shadow: 0 2px 8px 2px rgb(104 112 118 / 0.07),
+          0 2px 4px -1px rgb(104 112 118 / 0.04);
+        background-color: rgba(255, 255, 255, 0.05);
+      }
+      .css-2273198966:hover {
+        color: #333;
+        background-color: #e6e8eb;
+      }
+      .css-1228906118 {
+        padding-top: 62px;
+      }
+      .css-1228906118 .css-2273198966 {
+        margin-right: 16px;
+      }
+      .css-1228906118 .css-2273198966:first-child {
+        background-color: #fb304f;
+        color: #fff;
+      }
+      .css-1228906118 .css-2273198966:first-child:hover {
+        background-color: #f90428;
+      }
+      @media screen and (max-width: 1000px) {
+        .css-1228906118 {
+          text-align: center;
+        }
+        .css-1228906118 > div {
+          margin: 20px auto 0 auto;
+        }
+      }
+      .css-2236630148 {
+        width: fit-content;
+        padding: 0 20px;
+        line-height: 40px;
+        margin-top: 20px;
+        color: #687076;
+        backdrop-filter: saturate(180%) blur(10px);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 2px 8px 2px rgb(104 112 118 / 0.07),
+          0 2px 4px -1px rgb(104 112 118 / 0.04);
+      }
+      .css-2236630148 strong {
+        padding-right: 10px;
+      }
+      .css-2236630148 img {
+        cursor: pointer;
+        display: block;
+        height: 18px;
+        width: 18px;
+        padding-left: 10px;
+      }
+      .css-3744945764 {
+        position: absolute;
+        height: 100%;
+      }
+      .css-3744945764 a {
+        font-size: 14px;
+        border-radius: 12px;
+        margin-bottom: 14px;
+        display: block;
+        line-height: 40px;
+        padding: 0 20px;
+        text-align: center;
+        color: #687076;
+        background-color: rgba(255, 255, 255, 0.05);
+        box-shadow: 0 2px 8px 2px rgb(104 112 118 / 0.07),
+          0 2px 4px -1px rgb(104 112 118 / 0.04);
+        transition: all 0.3s;
+        font-weight: 500;
+      }
+      .css-3744945764 a:hover {
+        color: #333;
+        background-color: #e6e8eb;
+      }
+      .css-3744945764 div {
+        top: 86px;
+        position: sticky;
+      }
+      @media screen and (max-width: 1080px) {
+        .css-3744945764 {
+          display: none;
+        }
+      }
+      .css-3848671495 {
+        text-align: center;
+        padding: 48px;
+      }
+      .css-2416211695 {
+        min-height: calc(100vh - 100px);
+        display: flex;
+        padding-top: 20px;
+      }
+      .css-2416211695 .start-test {
+        display: inline-block;
+        color: #fff;
+        background-color: #fb304f;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+        margin: 0 20px;
+        float: right;
+        padding: 10px 15px;
+      }
+      .css-2416211695 > div {
+        flex: 1;
+        padding: 0 60px;
+      }
+      .css-2416211695 > div > ul {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+      }
+      .css-2416211695 > div > ul li {
+        margin-right: 20px;
+      }
+      .css-2416211695 > div > ul a {
+        display: block;
+        border-radius: 12px;
+        line-height: 40px;
+        padding: 0 20px;
+        color: #687076;
+        background-color: rgba(255, 255, 255, 0.05);
+        box-shadow: 0 2px 8px 2px rgb(104 112 118 / 0.07),
+          0 2px 4px -1px rgb(104 112 118 / 0.04);
+      }
+      .css-2416211695 > div > ul a:hover {
+        color: #333;
+        background-color: #e6e8eb;
+      }
+      .css-2416211695 > ul {
+        flex-shrink: 0;
+      }
+      .css-2416211695 > ul li {
+        margin-bottom: 14px;
+      }
+      .css-2416211695 > ul a {
+        flex-shrink: 0;
+        display: block;
+        font-size: 14px;
+        border-radius: 12px;
+        line-height: 40px;
+        width: 210px;
+        text-align: center;
+        color: #687076;
+        background-color: rgba(255, 255, 255, 0.05);
+        box-shadow: 0 2px 8px 2px rgb(104 112 118 / 0.07),
+          0 2px 4px -1px rgb(104 112 118 / 0.04);
+        font-weight: 500;
+      }
+      .css-2416211695 > ul a:hover {
+        color: #333;
+        background-color: #e6e8eb;
+      }
+      .css-1801775202 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .css-1801775202 button {
+        color: #fff;
+        background-color: #fb304f;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+        padding: 10px 15px;
+        margin-right: 20px;
+      }
+      .css-1801775202 div span {
+        padding-right: 10px;
+      }
+      .css-3442742593 {
+        max-width: 1280px;
+        margin: 0 auto;
+        min-height: 100vh;
+        padding: 0 64px;
+        transition: padding 0.3s;
+      }
+      @media screen and (max-width: 900px) {
+        .css-3442742593 {
+          padding: 0 28px;
+        }
+      }
+      .css-2273295395 {
+        text-align: center;
+        padding: 20px 0;
+      }
+      .css-2273295395 span {
+        display: block;
+        color: rgb(100, 116, 139);
+        font-size: 0.875rem;
+      }
+      .css-1865122742 {
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        top: 10%;
+        right: 0px;
+        height: 32px;
+        z-index: 99;
+        position: absolute;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+      }
+      .css-1865122742 > * {
+        backdrop-filter: saturate(180%) blur(84px);
+        background-color: rgba(255, 255, 255, 0.05);
+        margin-bottom: 16px;
+        padding: 8px 15px;
+        cursor: pointer;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        font-weight: 500;
+        user-select: none;
+        box-shadow: 0 2px 8px 2px rgb(104 112 118 / 0.07),
+          0 2px 4px -1px rgb(104 112 118 / 0.04);
+      }
+      .css-4169121954 {
+        display: flex;
+        align-items: center;
+      }
+      .css-4169121954:active svg {
+        transform: scale(1.5);
+      }
+      .css-4169121954 svg {
+        transition: all 0.3s;
+        padding-right: 8px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta
+      name="keywords"
+      content="styils, css-in-js, css, theme, styled, jsx-styled, emoiton, react, vue, jsx"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/styils/assets/logo.20634932.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styils | lightweight and fast CSS in JS</title>
+    <script
+      type="module"
+      crossorigin
+      src="/styils/assets/index.ba0622f7.js"
+    ></script>
+    <link rel="stylesheet" href="/styils/assets/index.c2770557.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="css-3442742593">
+        <header class="css-1865122742">
+          <div class="css-4169121954">
+            <svg
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              height="1.5em"
+              width="1.5em"
+            >
+              <path
+                d="M5 15v2a2 2 0 0 0 1.85 1.995L7 19h3v2H7a4 4 0 0 1-4-4v-2h2zm13-5l4.4 11h-2.155l-1.201-3h-4.09l-1.199 3h-2.154L16 10h2zm-1 2.885L15.753 16h2.492L17 12.885zM8 2v2h4v7H8v3H6v-3H2V4h4V2h2zm9 1a4 4 0 0 1 4 4v2h-2V7a2 2 0 0 0-2-2h-3V3h3zM6 6H4v3h2V6zm4 0H8v3h2V6z"
+              ></path></svg
+            >En
+          </div>
+          <a href="/styils/benchmark">Bench</a>
+        </header>
+        <section class="css-1353168920">
+          <section class="css-1473927961">
+            <section class="css-74779285">
+              <img
+                class="css-2887955138"
+                alt="styils"
+                src="/styils/assets/styils.63e6c146.svg"
+              /><span
+                >Lightweight and fast css-in-js solution with near zero runtime.
+                Support Themes、SSR、Sourcemap</span
+              >
+            </section>
+            <section class="css-1228906118">
+              <a class="css-2273198966" href="#quick">Quick Start</a
+              ><a
+                class="css-2273198966"
+                href="https://github.com/styils/styils"
+                target="_blank"
+                >View on Github</a
+              >
+              <div class="css-2236630148">
+                <strong>$</strong>
+                <pre>npm install @styils/react</pre>
+                <img
+                  src="/styils/assets/copy.a9c4b378.svg"
+                  alt="copy"
+                  aria-hidden="true"
+                />
+              </div>
+              <div class="css-2236630148">
+                <strong>$</strong>
+                <pre>npm install @styils/css</pre>
+                <img
+                  src="/styils/assets/copy.a9c4b378.svg"
+                  alt="copy"
+                  aria-hidden="true"
+                />
+              </div>
+            </section>
+          </section>
+          <section class="css-2299665724">
+            <img
+              class="css-2179833919"
+              alt="styils-logo"
+              src="/styils/assets/logo.20634932.svg"
+            /><label class="css-2531034372"
+              ><input type="checkbox" />
+              <div class="css-321038230 checked-false"></div
+            ></label>
+            <section class="css-153460069" datatype="html">
+              <img src="/styils/assets/html.f50ec28c.svg" alt="html" /><span
+                >Html</span
+              >
+            </section>
+            <section class="css-153460069" datatype="react">
+              <img src="/styils/assets/react.96fb259d.svg" alt="react" /><span
+                >React</span
+              >
+            </section>
+            <section class="css-153460069" datatype="vue">
+              <img src="/styils/assets/vue.9af44452.svg" alt="vue" /><span
+                >Vue (<!-- -->Planning<!-- -->)</span
+              >
+            </section>
+          </section>
+        </section>
+        <section class="css-2419906167">
+          <div class="css-2313343298">
+            <section class="css-1255783424">
+              <div>
+                <img src="/styils/assets/quick.1d72984f.svg" alt="quick" />
+              </div>
+              <span>Fast</span>
+            </section>
+            Avoid unnecessary style props at runtime and avoid double-computing
+            rendering.
+          </div>
+          <div class="css-2313343298">
+            <section class="css-1255783424">
+              <div>
+                <img src="/styils/assets/tyoe.81ff625a.svg" alt="type" />
+              </div>
+              <span>Fully Typed</span>
+            </section>
+            Flexible API and full TypeScript types.
+          </div>
+          <div class="css-2313343298">
+            <section class="css-1255783424">
+              <div>
+                <img src="/styils/assets/theme.a471f129.svg" alt="theme" />
+              </div>
+              <span>Theming</span>
+            </section>
+            Provides an easy way to customize the theme, you can change colors,
+            fonts, breakpoints and everything you need.
+          </div>
+          <div class="css-2313343298">
+            <section class="css-1255783424">
+              <div>
+                <img src="/styils/assets/size.132f07ad.svg" alt="size" />
+              </div>
+              <span>Super small</span>
+            </section>
+            Only 4kb overhead while providing full functionality.
+          </div>
+        </section>
+        <h1 class="css-3848671495" id="quick">Quick Start</h1>
+        <section class="css-2154077700">
+          <section class="css-3744945764">
+            <div>
+              <a href="#base">Base use</a
+              ><a href="#variants">Dynamic rendering</a
+              ><a href="#theme">Use Theme</a
+              ><a href="#ssr">Server-side rendering</a
+              ><a href="#keyframes">Animation Keyframes</a
+              ><a href="#global">Global Global</a
+              ><a href="#media">Query Media</a>
+            </div>
+          </section>
+          <div class="css-156896714">
+            <div class="css-832577268">
+              <h2 id="base">Base use</h2>
+              <p>
+                <span
+                  >The usage is almost the same as other<strong
+                    >CSS In JS</strong
+                  >frameworks</span
+                >
+              </p>
+              <p>
+                <span
+                  >Supports special nested
+                  selectors<strong>`&`</strong>and<strong>CSS</strong>all native
+                  selectors, and also provides a
+                  polymorphic<strong>`as`</strong>property, used to define the
+                  label that the component renders</span
+                >
+              </p>
+              <p>
+                <span
+                  >Also, if using<strong>Typescript</strong>, prop definitions
+                  are updated when<strong>`as`</strong>props are added</span
+                >
+              </p>
+            </div>
+            <div class="css-940962240">
+              <div class="css-44296100">
+                <section>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </section>
+                <section>
+                  <img src="/styils/assets/html.f50ec28c.svg" alt="html" /><img
+                    src="/styils/assets/react.96fb259d.svg"
+                    alt="react"
+                  /><img src="/styils/assets/vue.9af44452.svg" alt="vue" />
+                </section>
+              </div>
+              <pre><code class="language-jsx">import { styled } from &#x27;@styils/react&#x27;;
+
+// We can add namespce which may be useful when developing class libraries
+const Image = styled({tag:&#x27;img&#x27;,namespce:&#x27;label&#x27;},{ ... })
+
+const Button = styled(&#x27;button&#x27;, {
+  // :Styles inside global will generate global styles
+  &#x27;:global&#x27;:{
+    body:{
+      ...
+    },
+  }
+  fontSize: &#x27;13px&#x27;,
+  padding: &#x27;10px 15px&#x27;,
+  &#x27;&amp;:hover&#x27;: {
+    fontSize: 18, // The default unit is px
+  },
+  &#x27;&amp; .foo&#x27;:{
+    ...
+  },
+  [`&amp; ${Image}`]:{
+    ...
+  }
+});
+
+render(&lt;Button as=&quot;a&quot; href=&quot;google.com&quot;&gt;&lt;Image/&gt;&lt;/Button&gt;)
+</code></pre>
+            </div>
+          </div>
+          <div class="css-156896714 padding-false">
+            <div class="css-832577268">
+              <h2 id="variants">Dynamic rendering</h2>
+              <p>
+                <span
+                  >Style components are created with
+                  a<strong>variants</strong>attribute</span
+                >
+              </p>
+              <p>
+                You can define a single dynamic rule, multiple dynamic rules, or
+                even compound dynamic rules
+              </p>
+            </div>
+            <div class="css-940962240">
+              <div class="css-44296100">
+                <section>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </section>
+                <section>
+                  <img src="/styils/assets/html.f50ec28c.svg" alt="html" /><img
+                    src="/styils/assets/react.96fb259d.svg"
+                    alt="react"
+                  /><img src="/styils/assets/vue.9af44452.svg" alt="vue" />
+                </section>
+              </div>
+              <pre><code class="language-jsx">import { styled } from &#x27;@styils/react&#x27;
+
+const Button = styled(
+  &#x27;button&#x27;,
+  {
+    fontSize: 14
+  },
+  // variants is the third parameter of styled
+  {
+    size: {
+      small: {
+        fontSize: 12
+      },
+      large: {
+        fontSize: 16
+      }
+    }
+  }
+)
+
+render(&lt;Button variants={{ size: &#x27;small&#x27; }}&gt;Button&lt;/Button&gt;)
+</code></pre>
+            </div>
+          </div>
+          <div class="css-156896714">
+            <div class="css-832577268">
+              <p>
+                Dynamic interpolation replaces props props passing, because
+                passing values through props will bring a large performance
+                overhead, in addition, we may write the following code.
+              </p>
+            </div>
+            <div class="css-940962240">
+              <div class="css-44296100">
+                <section>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </section>
+              </div>
+              <pre><code class="language-jsx">const Side = styled(&#x27;div&#x27;, () =&gt; ({
+  transform: translateX(`${props.move}px`);
+}))
+
+function foo() {
+  // Each setMove will create multiple almost identical CSS rules
+  // in this case we should use style
+  const [move, setMove] = useState(0)
+  return &lt;Side move={move} /&gt;
+}</code></pre>
+            </div>
+          </div>
+          <div class="css-156896714">
+            <div class="css-832577268">
+              <h2 id="theme">Use Theme</h2>
+              <p>
+                <span
+                  ><strong>Styils</strong>provides a completely free theme
+                  experience. Apply them wherever you want as needed.</span
+                >
+              </p>
+            </div>
+            <div class="css-940962240">
+              <div class="css-44296100">
+                <section>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </section>
+                <section>
+                  <img src="/styils/assets/html.f50ec28c.svg" alt="html" /><img
+                    src="/styils/assets/react.96fb259d.svg"
+                    alt="react"
+                  /><img src="/styils/assets/vue.9af44452.svg" alt="vue" />
+                </section>
+              </div>
+              <pre><code class="language-jsx">import { createSystem } from &#x27;@styils/react&#x27;
+
+const { styled, SystemProvider, useSystem } = createSystem({
+  theme(mode) {
+    return {
+      color: mode === &#x27;light&#x27; ? &#x27;#333&#x27; : &#x27;#fff&#x27;,
+      ...other // any
+    }
+  }
+})
+
+const Button = styled(&#x27;div&#x27;, (theme) =&gt; {
+  return {
+    color: theme.color
+  }
+})
+
+render(() =&gt; {
+  const { mode, setMode, theme } = useSystem()
+
+  return (
+    &lt;SystemProvider&gt;
+      &lt;Button onClick={() =&gt; setMode(&#x27;dark&#x27;)}&gt;hello styils {mode}&lt;/Button&gt;
+    &lt;/SystemProvider&gt;
+  )
+})</code></pre>
+            </div>
+          </div>
+          <div class="css-156896714 padding-false">
+            <div class="css-832577268">
+              <h2 id="ssr">Server-side rendering</h2>
+              <p>
+                <span
+                  ><strong>Styils</strong>supports<strong>ssr</strong>and is
+                  easy to integrate into commonly used frameworks</span
+                >
+              </p>
+              <p>
+                <span
+                  >If using theme<strong>createExtracts</strong>should be
+                  exported from<strong>createSystem</strong></span
+                >
+              </p>
+              <p>
+                <span
+                  >View examples:<a
+                    href="https://github.com/styils/styils-examples/tree/main/next"
+                    >Next</a
+                  >and<a
+                    href="https://github.com/styils/styils-examples/tree/main/remix"
+                    >Remix</a
+                  ></span
+                >
+              </p>
+            </div>
+            <div class="css-940962240">
+              <div class="css-44296100">
+                <section>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </section>
+                <section>
+                  <img src="/styils/assets/html.f50ec28c.svg" alt="html" /><img
+                    src="/styils/assets/react.96fb259d.svg"
+                    alt="react"
+                  /><img src="/styils/assets/vue.9af44452.svg" alt="vue" />
+                </section>
+              </div>
+              <pre><code class="language-jsx">import React from &#x27;react&#x27;
+import NextDocument, { Html, Head, Main, NextScript } from &#x27;next/document&#x27;
+import { createExtracts } from &#x27;@styils/react&#x27;
+// or import { createExtracts } from &#x27;yours-path&#x27;
+
+export default class Document extends NextDocument {
+  const { extractElement } = createExtracts()
+
+  render() {
+    return (
+      &lt;Html lang=&quot;en&quot;&gt;
+        &lt;Head&gt;
+          {extractElement}
+        &lt;/Head&gt;
+        &lt;body&gt;
+          &lt;Main /&gt;
+          &lt;NextScript /&gt;
+        &lt;/body&gt;
+      &lt;/Html&gt;
+    );
+  }
+}
+
+</code></pre>
+            </div>
+          </div>
+          <div class="css-156896714">
+            <div class="css-832577268">
+              <p>
+                <span
+                  >Instead of using the framework,<strong
+                    >createExtracts returns</strong
+                  >
+                  an object with an <strong>extractHtml</strong> attribute, it
+                  returns a string and adds it to the
+                  <strong>html</strong></span
+                >
+              </p>
+            </div>
+            <div class="css-940962240">
+              <div class="css-44296100">
+                <section>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </section>
+                <section>
+                  <img src="/styils/assets/html.f50ec28c.svg" alt="html" /><img
+                    src="/styils/assets/react.96fb259d.svg"
+                    alt="react"
+                  /><img src="/styils/assets/vue.9af44452.svg" alt="vue" />
+                </section>
+              </div>
+              <pre><code class="language-jsx">import React from &#x27;react&#x27;
+import { createExtracts } from &#x27;@styils/react&#x27;
+// or import { createExtracts } from &#x27;yours-path&#x27;
+
+const app = renderToString(
+  &lt;App /&gt;
+)
+
+const { extractHtml } = createExtracts()
+
+res
+  .status(200)
+  .header(&#x27;Content-Type&#x27;, &#x27;text/html&#x27;)
+  .send(`&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+      ${extractHtml}
+      ...other
+  &lt;/head&gt;
+  &lt;body&gt;
+    ...app
+  &lt;/body&gt;
+&lt;/html&gt;`);
+</code></pre>
+            </div>
+          </div>
+          <div class="css-156896714">
+            <div class="css-832577268">
+              <h2 id="keyframes">Animation Keyframes</h2>
+              <p>
+                <span
+                  ><strong>Styils</strong>provides two ways to define as you
+                  like.</span
+                >
+              </p>
+            </div>
+            <div class="css-940962240">
+              <div class="css-44296100">
+                <section>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </section>
+                <section>
+                  <img src="/styils/assets/html.f50ec28c.svg" alt="html" /><img
+                    src="/styils/assets/react.96fb259d.svg"
+                    alt="react"
+                  /><img src="/styils/assets/vue.9af44452.svg" alt="vue" />
+                </section>
+              </div>
+              <pre><code class="language-jsx">const Foo = styled(&#x27;div&#x27;,{
+  &#x27;@keyframes superAnimation&#x27;: {
+    &#x27;11.1%&#x27;: {
+      opacity: &#x27;0.9999&#x27;
+    },
+    &#x27;111%&#x27;: {
+      opacity: &#x27;1&#x27;
+    }
+  }
+})
+// or
+import { keyframes } from &#x27;@styils/react&#x27;
+
+const out = keyframes({
+  from: {
+    transform: &#x27;rotate(0deg)&#x27;
+  },
+  to: {
+    transform: &#x27;rotate(360deg)&#x27;
+  }
+})
+
+const Foo = styled(&#x27;div&#x27;,{
+  animation: `13s ease 1.5s infinite none running ${out}`
+})
+,
+</code></pre>
+            </div>
+          </div>
+          <div class="css-156896714">
+            <div class="css-832577268">
+              <h2 id="global">Global Global</h2>
+              <p>
+                <span
+                  ><strong>Styils</strong>provides two ways to define as you
+                  like.</span
+                >
+              </p>
+            </div>
+            <div class="css-940962240">
+              <div class="css-44296100">
+                <section>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </section>
+                <section>
+                  <img src="/styils/assets/html.f50ec28c.svg" alt="html" /><img
+                    src="/styils/assets/react.96fb259d.svg"
+                    alt="react"
+                  /><img src="/styils/assets/vue.9af44452.svg" alt="vue" />
+                </section>
+              </div>
+              <pre><code class="language-jsx">import { global, SystemProvider } from &#x27;@styils/react&#x27;
+
+global({
+  body: {
+    backgroundColor: &#x27;red&#x27;
+  }
+})
+// or
+global((theme) =&gt; ({
+  body: {
+    backgroundColor: theme.color
+  }
+}))
+// or
+const Foo = styled(&#x27;div&#x27;,{
+  // Use in styled
+  &#x27;:global&#x27;:{
+    body: { backgroundColor: &#x27;red&#x27; }
+  }
+}
+</code></pre>
+            </div>
+          </div>
+          <div class="css-156896714 padding-false">
+            <div class="css-832577268">
+              <h2 id="media">Query Media</h2>
+              <p>
+                <span
+                  >Just like using media queries in
+                  regular<strong>CSS</strong>,<strong>@media</strong>can be
+                  placed directly in the<strong>CSS</strong>block.</span
+                >
+              </p>
+            </div>
+            <div class="css-940962240">
+              <div class="css-44296100">
+                <section>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </section>
+                <section>
+                  <img src="/styils/assets/html.f50ec28c.svg" alt="html" /><img
+                    src="/styils/assets/react.96fb259d.svg"
+                    alt="react"
+                  /><img src="/styils/assets/vue.9af44452.svg" alt="vue" />
+                </section>
+              </div>
+              <pre><code class="language-jsx">const Root = styled(&#x27;div&#x27;, {
+  maxWidth: 1280,
+  margin: &#x27;0 auto&#x27;,
+  minHeight: &#x27;100vh&#x27;,
+  padding: &#x27;0 64px&#x27;,
+  transition: &#x27;padding .3s&#x27;,
+  &#x27;@media screen and (max-width: 900px)&#x27;: {
+    padding: &#x27;0 28px&#x27;
+  }
+})
+</code></pre>
+            </div>
+          </div>
+        </section>
+        <footer class="css-2273295395">
+          <span>Released under the MIT License</span
+          ><span>Copyright © 2022-present Zoy-l</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
